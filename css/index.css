@@ -1,30 +1,38 @@
+@font-face {
+  font-family: HyliaSerif;
+  src: url('../fonts/hylia-serif/hylia-serif.otf');
+}
+
+/* Navbar */
 .css-topbar {
-  background-color: rgba(158,152,136, 0.5);
+  background-image: url("../images/background-top.png");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-radius: 0px;
-  height: 72px;
+  height: 92px;
+}
+
+.css-overlay {
+  background-color: rgba(158,152,136, 0.5);
 }
 
 .css-tabs {
-  padding-top: 30px;
+  padding-top: 16px;
 }
 
 .css-tabs ul {
   border-bottom-width: 0px;
 }
 
-/* .css-tabs ul li a:hover {
-  background-color: pink;
+.css-tabs ul li a {
+  color: purple;
+  font-family: HyliaSerif;
+  font-size: 25px;
 }
 
-.css-tabs ul li a.focus {
-  background-color: blue !important;
-}
-
-
-.nav-tabs > li.active > a:hover {
-  background-color: red;
-} */
-
+/* Background */
 .css-bg {
   background-image: url("../images/background.png");
   background-position: top;
@@ -40,6 +48,7 @@
   margin-bottom: 0px;
 }
 
+/* Intro */
 .css-zelda-logo img {
   width: 100%;
   margin-top: 100px;
@@ -49,12 +58,34 @@
   margin-top: 280px;
 }
 
+.css-zelda-txt h2 {
+  font-weight: 600;
+}
+
+/* Lower Box */
 .css-bottom-box {
   margin: 110px 0px 30px;
   background-color: rgba(0, 0, 0, 0.7);
-  height: 600px;
+  height: 100%;
 }
 
+/* Trailer */
+.css-trailer {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+  margin-top: 60px;
+}
+.css-trailer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Text & Image */
 .css-box-left {
   margin-top: 200px;
   color: white;
