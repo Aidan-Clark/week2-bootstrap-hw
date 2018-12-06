@@ -1,0 +1,66 @@
+.css-topbar {
+  background-color: rgba(158,152,136, 0.5);
+  border-radius: 0px;
+  height: 72px;
+}
+
+.css-tabs {
+  padding-top: 30px;
+}
+
+.css-tabs ul {
+  border-bottom-width: 0px;
+}
+
+/* .css-tabs ul li a:hover {
+  background-color: pink;
+}
+
+.css-tabs ul li a.focus {
+  background-color: blue !important;
+}
+
+
+.nav-tabs > li.active > a:hover {
+  background-color: red;
+} */
+
+.css-bg {
+  background-image: url("../images/background.png");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.css-jumbo {
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.css-zelda-logo img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.css-zelda-txt {
+  margin-top: 280px;
+}
+
+.css-bottom-box {
+  margin: 110px 0px 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 600px;
+}
+
+.css-box-left {
+  margin-top: 200px;
+  color: white;
+}
+
+.css-box-right img {
+  margin-top: 10px;
+  height: 600px;
+}
