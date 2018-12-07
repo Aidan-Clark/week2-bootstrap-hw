@@ -1,7 +1,7 @@
 # The Legend of Zelda: Breath of the Wild
 ## Promotional Website
 
-![A screenshot of the home page of the website](front-page-cap.png)
+![A screenshot of the home page of the website](front-page-cap.PNG)
 
 This website was a one day project to practice my HTML and CSS skills. The website has 3 pages:
 
