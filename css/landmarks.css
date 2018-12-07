@@ -1,0 +1,93 @@
+@font-face {
+  font-family: HyliaSerif;
+  src: url('../fonts/hylia-serif/hylia-serif.otf');
+}
+
+/* Navbar */
+.css-topbar {
+  background-image: url("../images/background-top.png");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0px;
+  height: 92px;
+}
+
+.css-overlay {
+  background-color: rgba(158,152,136, 0.5);
+}
+
+.css-tabs {
+  padding-top: 16px;
+}
+
+.css-tabs ul {
+  border-bottom-width: 0px;
+}
+
+.css-tabs ul li a {
+  color: purple;
+  font-family: HyliaSerif;
+  font-size: 25px;
+}
+
+/* Background */
+.css-bg {
+  background-image: url("../images/background.png");
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.css-jumbo {
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* Title */
+.css-landmarks-txt {
+  margin-top: 110px;
+  font-family: HyliaSerif;
+}
+
+.css-landmarks-txt h1 {
+  font-size: 120px;
+}
+
+/* Lower Box */
+.css-bottom-box {
+  margin: 110px 0px 30px;
+  padding: 30px 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+/* Landmarks */
+.css-landmark img {
+  width: 100%;
+}
+
+.css-landmark {
+  padding: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.css-landmark .caption p {
+  font-size: 17px;
+}
+
+/* Hyrule Castle */
+.css-landmark-castle {
+  margin-bottom: 100px;
+}
+
+.css-landmark-castle .caption p {
+  font-size: 20px;
+}
